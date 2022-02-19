@@ -1,2 +1,8 @@
 // tady je místo pro náš program
-console.log("huraaa");
+
+let nadpis = document.querySelector('h1');
+nadpis.classList.add('zeleny');
+nadpis.classList.remove('zeleny');
+
+let cverecek = document.querySelector('div.zluty');
+cverecek.classList.add('ctverecek');
