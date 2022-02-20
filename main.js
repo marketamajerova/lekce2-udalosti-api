@@ -6,3 +6,7 @@ nadpis.classList.remove('zeleny');
 
 let cverecek = document.querySelector('div.zluty');
 cverecek.classList.add('ctverecek');
+
+function zbarviNaCerveno(){
+    document.getElementById("lev").style.color = "red";
+}
