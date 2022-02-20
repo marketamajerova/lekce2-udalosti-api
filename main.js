@@ -8,5 +8,6 @@ let cverecek = document.querySelector('div.zluty');
 cverecek.classList.add('ctverecek');
 
 function zbarviNaCerveno(){
-    document.getElementById("lev").style.color = "red";
+    odstavec = document.getElementById("lev");
+    odstavec.classList.toggle("cerveny");
 }
